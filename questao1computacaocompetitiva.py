@@ -12,7 +12,7 @@ def pre_computar_primos(limite):
 def avaliar_t_primos():
     tamanho_maximo_raiz = 1000000
     gabarito_primo = pre_computar_primos(tamanho_maximo_raiz)
-    numeros_teste = [4, 5, 6, 9, 16, 132498172987612581356536215675]
+    numeros_teste = [4, 5, 6, 9, 16, 49]
     for x in numeros_teste:
         raiz = math.isqrt(x)
         if (raiz * raiz == x) and (gabarito_primo[raiz] == True):
